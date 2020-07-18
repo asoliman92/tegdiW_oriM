@@ -10,7 +10,7 @@ For this task I focused mainly on the performance trying not to waste resources 
 real time and performance is of an essence.
 
 - System is designed for heavy read load, and I was favoring performance for reading to writing.
-- I'm sacrificing Immutability for performance to update it in place.
+- I'm sacrificing Immutability for performance to update it in place and to be able to have multiple references for same object.
 - Maintaining multiple references for the object to get it quicker.
 
 ### Overview
